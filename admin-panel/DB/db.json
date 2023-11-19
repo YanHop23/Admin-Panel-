@@ -1,7 +1,40 @@
 {
-    "users": [
-        { "id": 1, "name": "John Doe", "password": "1234", "email": "john@gmail.com" },
-        { "id": 2, "name": "Jane Smith", "password": "1111", "email": "jane@gmail.com" },
-        { "id": 3, "name": "Bob Johnson", "password": "dobik", "email": "bob@gmail.com" }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "password": "1234",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "password": "1111",
+      "email": "jane@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "password": "dobik",
+      "email": "bob@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Oleg",
+      "password": "were",
+      "email": "olegpolothevets@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Vasya",
+      "password": "1234567",
+      "email": "vasya@gmil.com"
+    },
+    {
+      "id": "6",
+      "name": "ola",
+      "password": "holaa11",
+      "email": "ola@gmail.com"
+    }
+  ]
 }
