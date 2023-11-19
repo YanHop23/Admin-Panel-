@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: rgb(161, 46, 46);
+    justify-content: center;
+    .list {
+
+        li {
+            display: grid;
+            grid-template: 1fr / 5% 20% 40% 15% 10% 10%;  
+            text-align: start;
+            div {
+                
+            }
+        }
+    }
+}
