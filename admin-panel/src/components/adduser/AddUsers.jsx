@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from 'react-redux';
 import { addUser } from './../../redux/actions'; 
-import { useNavigate } from 'react-router-dom'; // Замініть useHistory на useNavigate
+import { useNavigate } from 'react-router-dom'; 
 
 const AddUser = () => {
     const dispatch = useDispatch();
@@ -32,7 +32,6 @@ const AddUser = () => {
             dispatch(addUser(newUser));
             setUser({ id: '', name: '', password: '', email: '' });
 
-            // Змініть URL на "/users" після успішного додавання користувача
             navigate('/users'); // Замініть history.push на navigate
         } else {
             console.error('Failed to add user');

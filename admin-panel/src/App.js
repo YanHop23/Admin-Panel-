@@ -4,6 +4,7 @@ import Login from './components/Login';
 import k from './app.module.scss';
 import UsersWindow from './components/userswindow/UsersWindow';
 import AddUser from './components/adduser/AddUsers';
+import UserForm from './components/userform/UserForm';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Login />}/>
           <Route path="/users" element={<UsersWindow />}/>
           <Route path="/users/add" element={<AddUser />}/>
+          <Route path="/users/:id" element={<UserForm />}/>
       </Routes>
     </div>
   );
